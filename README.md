@@ -1,15 +1,21 @@
-# GestionEmployee-Department-Backend
-En Dev.
-Spring boot Backend Gestion Employés &amp; Départements
+# Gestion Employee & Department
 
-Gestion Employees:
-	-GET : /employees
-	-POST: /employees ( Test if employee already existing )
-	-UPDATE: Dev..
-	-DELETE: /employees/{id} 
+API gestion employee & department (SpringBoot)
 
-Gestion Departments:
-	-GET : /departments
-	-POST: /departments ( Test if department already existing )
-	-UPDATE: Dev..
-	-DELETE: /departments/{id} 
+## Employee 
+ - GET: /employees
+ - POST: /employees ( Test if employee already existing )
+ - UPDATE: Dev...
+ - DELETE: /employees/{id}
+## Department
+ - GET: /departments
+ - POST: /departments ( Test if department already existing )
+ - UPDATE: Dev...
+ - DELETE: /employees/{id}
+## Features
+
+- Update Employee & Department
+- Search Employee & Department
+- SignIn/SingUp
+
+
