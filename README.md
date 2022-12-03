@@ -14,8 +14,8 @@ API gestion employee & department (SpringBoot)
  - DELETE: /employees/{id}
 ## Features
 
-- Update Employee & Department
-- Search Employee & Department
+- Update Department
+- Search Department
 - SignIn/SingUp
 
 
