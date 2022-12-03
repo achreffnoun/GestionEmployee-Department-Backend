@@ -31,6 +31,7 @@ public class DepartmentController {
 
     }
 
+
     @GetMapping("/departments")
     List<Department> getAllDepartment(){
         return this.depServ.getAllDepartment();

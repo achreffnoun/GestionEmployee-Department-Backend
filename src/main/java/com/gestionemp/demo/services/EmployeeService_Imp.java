@@ -1,6 +1,7 @@
 package com.gestionemp.demo.services;
 
 import com.gestionemp.demo.entities.Employee;
+import com.gestionemp.demo.models.EmployeeModel;
 import com.gestionemp.demo.repositories.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -41,5 +42,8 @@ public class EmployeeService_Imp implements EmployeeService {
     public Boolean findbyFirstname(String firstname) {
         return this.empRepo.existsByFirstname(firstname);
     }
+
+
+
 
 }
