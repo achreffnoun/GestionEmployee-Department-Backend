@@ -70,5 +70,4 @@ public class EmployeeController {
         this.empServ.DeleteEmployee(id);
     }
 
-
 }

@@ -13,4 +13,6 @@ public interface DepartmentService  {
     Department getOneDepartment(long id);
 
     Boolean findbyName(String firstname);
+
+    void deleteDepartment(long id);
 }

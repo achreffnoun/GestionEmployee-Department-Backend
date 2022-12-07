@@ -32,4 +32,9 @@ public class DepartmentService_Imp implements DepartmentService{
     public Boolean findbyName(String name) {
         return this.DepRepo.existsByName(name);
     }
+
+    @Override
+    public void deleteDepartment(long id) {
+        this.DepRepo.deleteById(id);
+    }
 }

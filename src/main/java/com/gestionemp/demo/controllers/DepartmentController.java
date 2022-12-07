@@ -56,4 +56,9 @@ public class DepartmentController {
     Department getOneDepartment(@PathVariable long id) {
         return this.depServ.getOneDepartment(id);
     }
+
+    @DeleteMapping("/departments/{id}")
+    void DeleteDepartment(long id){
+        this.depServ.deleteDepartment(id);
+    }
 }
